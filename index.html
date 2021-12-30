@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times-circle" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fal fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>World's Biggest University</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate atque porro eius quaerat exercitationem sequi ab, <br> sunt totam autem fuga, similique odit dolor ratione.</p>
+            <a href="" class="hero-btn">Visit us to know more</a>
+        </div>
+
+    </section>
+    <section class="course"> 
+        <h1 class="ctitle">Courses we Offer</h1>
+        <p class="ctext">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Intermediate</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure beatae harum praesentium facilis earum suscipit veritatis nulla sint, incidunt aspernatur quae ex. Harum, unde asperiores!</p>
+            </div>
+            <div class="course-col">
+                <h3>Degree</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure beatae harum praesentium facilis earum suscipit veritatis nulla sint, incidunt aspernatur quae ex. Harum, unde asperiores!</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduation</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure beatae harum praesentium facilis earum suscipit veritatis nulla sint, incidunt aspernatur quae ex. Harum, unde asperiores!</p>
+            </div>
+        </div>
+    </section>
+    <!-- campus -->
+    <section class="campus">
+        <h1 class="ctitle">Our Global Campus</h1>
+        <p class="ctext">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="row">
+            <div class="campus-col">
+                <img class="campus-image" src="images/london.png" alt="london Campus">
+                <div class="layer">
+                    <h3 class="campus-title">LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img class="campus-image" src="images/newyork.png" alt="london Campus">
+                <div class="layer">
+                    <h3 class="campus-title">NEW YORK CITY</h3>
+                </div>
+            </div>
+            <div class="campus-col">
+                <img class="campus-image" src="images/washington.png" alt="london Campus">
+                <div class="layer">
+                    <h3 class="campus-title">PARIS</h3>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- facilities -->
+    <section class="facilities">
+        <h1 class="ctitle">Our Facilities</h1>
+        <p class="ctext">Lorem ipsum dolor sit amet.</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="images/cafeteria.png" alt="">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/library.png" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="images/basketball.png" alt="">
+                <h3>Large Playground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function hideMenu()
+        {
+            navLinks.style.right = '-50vw'
+        }
+        function showMenu(){
+            navLinks.style.right = '0'
+        }
+    </script>
+    
+</body>
+</html>
